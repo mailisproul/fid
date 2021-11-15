@@ -1,0 +1,80 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #dbf3fa url(images/blackgoose.png) no-repeat center 100px fixed;
+  background-color: #dbf3fa;
+  /* background-image: url(images/bullseye.png);
+  background-position: center 200px; */
+
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: #A8C2C9 url(images/purpledot.png) repeat-x center top;
+  background:
+                      url(images/purpledot.png) left top repeat-y,
+                      url(images/purpledot.png) right top repeat-y,
+                      url(images/gooseshadow.png) 90% bottom no-repeat
+  background-color: #A8C2C9
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  color: #d1633c;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #d1633c;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+a:link {color: #5B6479;
+}
+a:visited {color: #848B9B;
+}
+a:hover {color: #848B9B;
+}
+a:active {background-color: white;
+          color: #2E4782;
+        }
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
