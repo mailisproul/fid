@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+  font-family: source sans pro;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  background-color: #F5F7FA;
+  background-image: url(images/favicon1copy.png);
+  background-position: center 100px;
+  background-attachment: fixed;
+  background-size: 50%;
+  background-repeat:no-repeat;
+  background-opacity: 50%;
+
+}
+
+
+
+h1 {
+  font-family: source sans pro, sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+
+}
+
+h2 {
+  color: #4d6c81;
+}
+
+p.intro {font-size: 1.25em}
+
+a {
+  color: black;
+}
+  a:hover {
+    color: #4d6c81 !important;
+}
+  a:visited {
+    color: gray;
+}
+
+div.gallery {
+  max-width: 675px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  div.gallery img {
+    margin: 10px;
+    border-radius: 5%;
+  }
+
+    div.gallery img:hover {
+      transform: scale(1.25);
+      transition: all 0.5s;
+    }
+img.fullsize {
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ul {
+
+}
+ul.links {
+  list-style: none;
+  padding-left:20px;
+  font-size: 1.1em;
+  font-weight:600;
+
+}
